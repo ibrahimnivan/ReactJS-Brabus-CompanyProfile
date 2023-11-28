@@ -20,18 +20,19 @@ const Sidebar = () => {
       <button className="toggle-btn" onClick={toggleSidebar}>
         {isSidebarOpen ? "✕" : hamburgerline}
       </button>
-      <ul className="ml-12">
+      <ul className="mt-12 ml-12">
         <li>
-          <a href="#home">Home</a>
+          <a className="font-semibold text-shadow-black text-lg" href="#home">ABOUT US</a>
+          
         </li>
         <li>
-          <a href="#about">About</a>
+          <a className="font-semibold text-shadow-black text-lg" href="#about">CARS</a>
         </li>
         <li>
-          <a href="#services">Services</a>
+          <a className="font-semibold text-shadow-black text-lg" href="#services">OUR TEAM</a>
         </li>
-        <li>
-          <a href="#contact">Contact</a>
+        <li className="mt-16">
+          <a href="#contact">Language</a>
         </li>
       </ul>
     </div>

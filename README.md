@@ -1,1 +1,25 @@
-<div class="video"><video class="picture-teaser__media" preload="none" muted="" loop="" playsinline=""><source src="https://www.brabus.com/_Resources/Persistent/a/d/a/1/ada18a67ed4ba6c46ac98a90d2db68b0cbab5c7c/Porsche%20911%20ROCKET_Teaser_16zu9_WEBTEASER.mp4" data-landscape="https://www.brabus.com/_Resources/Persistent/a/d/a/1/ada18a67ed4ba6c46ac98a90d2db68b0cbab5c7c/Porsche%20911%20ROCKET_Teaser_16zu9_WEBTEASER.mp4" data-portrait="https://www.brabus.com/_Resources/Persistent/5/c/8/2/5c820e9ed1b81881ea87769f6a58765e2d4e0dc9/Porsche%20911%20Rocket_Teaser_Hochformatt_HF_H264_WEBTEASER.mp4" type="video/mp4">Your browser does not support the video tag.</video><figcaption class="container-fluid responsive-gutter"><div class="row picture-teaser-content align-items-end align-items-sm-end justify-content-center justify-content-sm-center"><div class="col-12 col-md-10 col-lg-8 picture-teaser-caption  text-center text-sm-center"><h2 class="font-size-small">FAST. FASTER. GONE.</h2><p></p><p class="form--row"><a href="/en/cars/supercars/brabus-900-rocket-r.html" class="form--button-dark picture-teaser-button" tabindex="-1"><span>BRABUS 900 Rocket r "1 of 25"</span></a></p></div></div></figcaption></div>
+Video tag harus mempunyai **key** agar videonya ganti
+cara agar ditengah **left-1/2 transform -translate-x-1/2**
+Tailwind CSS menyediakan class **object-cover** yang dapat digunakan untuk mengisi elemen dengan objek dan menjaga aspek rasio. - for video
+
+The Brabus Difference
+Precision Engineering
+At the heart of every Brabus creation is a commitment to precision engineering. Our team of skilled craftsmen, engineers, and designers collaborate seamlessly to enhance the performance, aesthetics, and functionality of each vehicle we touch.
+
+Unparalleled Performance
+Brabus Tuning is synonymous with power. Our tuning solutions not only boost horsepower and torque but also deliver a driving experience that is unparalleled. Whether you seek the thrill of the track or the luxury of the open road, Brabus ensures that every moment behind the wheel is extraordinary.
+
+Signature Aesthetics
+We believe that true performance should be complemented by striking aesthetics. From bespoke interiors to aerodynamic enhancements, our designs are a harmonious blend of form and function. Every Brabus-tuned vehicle is a statement of individuality, reflecting the unique personality of its owner.
+
+Our Services
+Performance Tuning: Unleash the full potential of your vehicle with our expertly crafted performance tuning packages.
+Aesthetic Enhancements: Elevate the visual appeal of your car with our custom body kits, wheels, and interior upgrades.
+Exclusive Limited Editions: Experience automotive luxury like never before with our limited-edition models, each a masterpiece in its own right.
+Join the Brabus Family
+Whether you're a seasoned automotive enthusiast or just beginning your journey into the world of high-performance driving, Brabus Tuning welcomes you. Explore our offerings, discover the art of automotive customization, and let us redefine your driving experience.
+
+Brabus Tuning - Where Performance Meets Luxury, and Every Drive Becomes a Masterpiece.
+
+Contact Us | Explore Our Portfolio | Latest News and Events
+
