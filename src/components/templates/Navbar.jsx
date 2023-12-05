@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import logoBrabus from "../../assets/brabuss.webp";
+import account from "../../assets/account.png";
 import { Link } from "react-router-dom/dist";
 
 const Navbar = () => {
@@ -28,11 +29,13 @@ const Navbar = () => {
 
   return (
     <nav className={`${isFixed ? "navbar-fixed" : " "} z-10 h-16 flex w-full items-center justify-between fixed top-0 left-0`}>
-      <span className="2xl:w-20 w-10 "></span>
+      <span className="w-10 "></span>
       <Link to="/">
         <img className="w-10" src={logoBrabus} alt="" />
       </Link>
-      <p className="2xl:w-20 w-10">account</p>
+      <div className="w-10">
+        <img className="mr-4 w-7" src={account} alt="" />
+      </div>
     </nav>
   );
 };

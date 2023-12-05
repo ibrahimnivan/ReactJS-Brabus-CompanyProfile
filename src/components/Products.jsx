@@ -6,8 +6,8 @@ import CarCard from "./CarCard";
 import ronaldo from "../assets/testimonials/cristianoronaldo.webp";
 import blonde from "../assets/testimonials/blonde.jpg";
 
-import upquote from "../assets/testimonials/upquote.png"
-import downquote from "../assets/testimonials/downquote.png"
+import upquote from "../assets/testimonials/upquote.png";
+import downquote from "../assets/testimonials/downquote.png";
 
 import carData from "../carData.json";
 console.log(carData);
@@ -35,7 +35,9 @@ const Products = () => {
             <div className="w-64">
               <img className="w-6" src={upquote} alt="" />
               <h2 className="ml-5 text-lg font-semibold">Cristiano Ronaldo</h2>
-              <p className="ml-5" >Driving Brabus supercars is a thrill like no other. The perfect fusion of power and elegance makes every journey an exhilarating experience. It's not just a car; it's a statement of unmatched performance and style</p>
+              <p className="ml-5">
+                Driving Brabus supercars is a thrill like no other. The perfect fusion of power and elegance makes every journey an exhilarating experience. It's not just a car; it's a statement of unmatched performance and style
+              </p>
               <img className="w-6 ml-auto" src={downquote} alt="" />
             </div>
           </div>
@@ -44,7 +46,7 @@ const Products = () => {
             <div className="w-64">
               <img className="w-6" src={upquote} alt="" />
               <h2 className="ml-5 text-lg font-semibold">Supercar blondie</h2>
-              <p className="ml-5" >Unleashing the ultimate automotive dreams, Brabus supercars redefine luxury and performance. From futuristic designs to mind-bending speeds, each model is a unique masterpiece.</p>
+              <p className="ml-5">Unleashing the ultimate automotive dreams, Brabus supercars redefine luxury and performance. From futuristic designs to mind-bending speeds, each model is a unique masterpiece.</p>
               <img className="w-6 ml-auto" src={downquote} alt="" />
             </div>
           </div>

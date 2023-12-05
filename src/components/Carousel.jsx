@@ -38,7 +38,7 @@ export default class MultipleItems extends Component {
   };
     return (
       <div className="pt-20 xl:w-[95%] w-[85%] mx-auto">
-        <h2 className="xl:text-3xl text-xl xl:ml-20 ml-5 mb-10"> BRAND NEW SUPERCARS </h2>
+        <h2 className="xl:text-3xl text-2xl xl:ml-20 ml-5 mb-10"> BRAND NEW SUPERCARS </h2>
         <Slider {...settings}>
           <div className="p-4">
             <img src={BRABUS_600} alt="" />

@@ -43,8 +43,8 @@ const HomePage = () => {
         <figcaption className="absolute top-[60%] left-1/2 transform -translate-x-1/2 flex ">
           <h2 className="text-white xl:text-3xl text-lg font-light">{currentVideo.caption}</h2>
         </figcaption>
-        <div id="link-profile" className="w-40 absolute top-[69%] bg-black left-1/2 transform -translate-x-1/2 flex items-center justify-center">
-          <a className="px-4 py-2 text-white inline-block" href={currentVideo.link}>
+        <div id="link-profile" className="w-40 hover:bg-orange-600 absolute top-[69%] bg-black left-1/2 transform -translate-x-1/2 flex items-center justify-center">
+          <a className="px-4 py-2 text-white  inline-block" href={currentVideo.link}>
             {currentVideo.linkCaption}
           </a>
         </div>
@@ -150,7 +150,7 @@ const HomePage = () => {
         </div>
       </section>
       <section id="media-review" className="bg-testimonials-background">
-        <h2 className="text-center xl:pt-24 pt-10 font-semibold text-gray-700 text-4xl">MEDIA REVIEW</h2>
+        <h2 className="text-center xl:pt-24 pt-10 font-semibold text-gray-700 text-2xl xl:text-4xl">MEDIA REVIEW</h2>
         <h6 className="text-center text-xs">(Testimonials)</h6>
         <div id="cards" className="flex flex-row flex-wrap xl:mt-36 mt-10 justify-center gap-5 px-5 pb-24">
           <div id="card" className="w-[350px]  text-center bg-[#e9ecef] bg-opacity-75">
