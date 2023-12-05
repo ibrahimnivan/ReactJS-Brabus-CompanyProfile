@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom/dist";
 
 const Sidebar = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
@@ -22,14 +23,24 @@ const Sidebar = () => {
       </button>
       <ul className="mt-12 ml-12">
         <li>
-          <a className="font-semibold text-shadow-black text-lg" href="#home">ABOUT US</a>
-          
+          <Link to="/" className="font-semibold text-shadow-black text-lg hover:text-indigo-800 ">
+            HOME
+          </Link>
         </li>
         <li>
-          <a className="font-semibold text-shadow-black text-lg" href="#about">CARS</a>
+          <Link to="/about" className="font-semibold text-shadow-black text-lg hover:text-indigo-800 ">
+            ABOUT US
+          </Link>
         </li>
         <li>
-          <a className="font-semibold text-shadow-black text-lg" href="#services">OUR TEAM</a>
+        <Link to="/products" className="font-semibold text-shadow-black text-lg hover:text-indigo-800 ">
+            CARS
+          </Link>
+        </li>
+        <li>
+        <Link to="/ourteam" className="font-semibold text-shadow-black text-lg hover:text-indigo-800 ">
+            OUR TEAM
+          </Link>
         </li>
         <li className="mt-16">
           <a href="#contact">Language</a>
