@@ -27,12 +27,12 @@ const Navbar = () => {
   }, [window.scrollY]);
 
   return (
-    <nav className={isFixed ? "navbar-fixed z-10 h-16" : "navbar-container z-10 h-16"}>
-      <span className="w-20"></span>
+    <nav className={`${isFixed ? "navbar-fixed" : " "} z-10 h-16 flex w-full items-center justify-between fixed top-0 left-0`}>
+      <span className="2xl:w-20 w-10 "></span>
       <Link to="/">
-        <img className="w-10 align-" src={logoBrabus} alt="" />
+        <img className="w-10" src={logoBrabus} alt="" />
       </Link>
-      <p className="w-20">account</p>
+      <p className="2xl:w-20 w-10">account</p>
     </nav>
   );
 };

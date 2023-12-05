@@ -14,15 +14,31 @@ import Taycan from '../assets/products/Taycan.jpg'
 export default class MultipleItems extends Component {
   render() {
     const settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 4,
-      slidesToScroll: 2
-    };
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 2,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      }
+    ]
+  };
     return (
-      <div className="pt-20 w-[95%] mx-auto">
-        <h2 className="text-3xl ml-20 mb-10"> BRAND NEW SUPERCARS </h2>
+      <div className="pt-20 xl:w-[95%] w-[85%] mx-auto">
+        <h2 className="xl:text-3xl text-xl xl:ml-20 ml-5 mb-10"> BRAND NEW SUPERCARS </h2>
         <Slider {...settings}>
           <div className="p-4">
             <img src={BRABUS_600} alt="" />

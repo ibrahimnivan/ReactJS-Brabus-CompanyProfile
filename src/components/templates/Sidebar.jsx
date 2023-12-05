@@ -17,32 +17,32 @@ const Sidebar = () => {
   );
 
   return (
-    <div className={`sidebar ${isSidebarOpen ? "open" : ""} z-10`}>
-      <button className="toggle-btn" onClick={toggleSidebar}>
+    <div className={`sidebar ${isSidebarOpen ? "open" : ""} xl:left-[-220px] xl:w-[220px] left-[-160px] w-[160px]  z-10`}>
+      <button className="toggle-btn bg-none border-none text-gray-900 cursor-pointer text-xl mb-2 xl:ml-20 ml-8 mt-5" onClick={toggleSidebar}>
         {isSidebarOpen ? "✕" : hamburgerline}
       </button>
-      <ul className="mt-12 ml-12">
+      <ul className="mt-12 w-full">
         <li>
-          <Link to="/" className="font-semibold text-shadow-black text-lg hover:text-indigo-800 ">
+          <Link to="/" className="w-1/2 font-semibold ml-[20%] text-shadow-black xl:text-lg text-sm hover:text-indigo-800 ">
             HOME
           </Link>
         </li>
         <li>
-          <Link to="/about" className="font-semibold text-shadow-black text-lg hover:text-indigo-800 ">
+          <Link to="/about" className="w-1/2 font-semibold ml-[20%] text-shadow-black xl:text-lg text-sm hover:text-indigo-800 ">
             ABOUT US
           </Link>
         </li>
         <li>
-        <Link to="/products" className="font-semibold text-shadow-black text-lg hover:text-indigo-800 ">
+        <Link to="/products" className="w-1/2 font-semibold ml-[20%] text-shadow-black xl:text-lg text-sm hover:text-indigo-800 ">
             CARS
           </Link>
         </li>
         <li>
-        <Link to="/ourteam" className="font-semibold text-shadow-black text-lg hover:text-indigo-800 ">
+        <Link to="/ourteam" className="w-1/2 font-semibold ml-[20%] text-shadow-black xl:text-lg text-sm hover:text-indigo-800 ">
             OUR TEAM
           </Link>
         </li>
-        <li className="mt-16">
+        <li className="w-1/2 mt-14 ml-[20%] text-shadow-black xl:text-base text-sm hover:text-indigo-800">
           <a href="#contact">Language</a>
         </li>
       </ul>

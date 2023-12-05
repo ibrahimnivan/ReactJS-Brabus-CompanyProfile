@@ -9,8 +9,8 @@ const TeamsPage = () => {
     <div>
       <Navbar />
       <Sidebar />
-      <h1 className="mt-20 text-center text-4xl font-semibold">OUR TEAM</h1>
-      <p className="text-center text-base">Upholding the highest standards is not a choice but a way of life.</p>
+      <h1 className="mt-20 text-center xl:text-4xl text-2xl font-semibold">OUR TEAM</h1>
+      <p className="text-center xl:text-base text-sm">Upholding the highest standards is not a choice but a way of life.</p>
       <TeamCard teams={teamsData} />
       <Footer />
     </div>

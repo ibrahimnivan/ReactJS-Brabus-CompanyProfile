@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import MultipleItems from "./Carousel";
+import { Link } from "react-router-dom";
 import Navbar from "./templates/Navbar";
 import Sidebar from "./templates/Sidebar";
 import Footer from "./templates/Footer";
@@ -32,7 +33,7 @@ const HomePage = () => {
   };
 
   return (
-    <div>
+    <div className="">
       <Navbar />
       <Sidebar />
       <div id="videotron" className="w-full relative">
@@ -40,7 +41,7 @@ const HomePage = () => {
           <source src={`video-hero${currentVideo.number}.mp4`} type="video/mp4" />
         </video>
         <figcaption className="absolute top-[60%] left-1/2 transform -translate-x-1/2 flex ">
-          <h2 className="text-white text-3xl font-light">{currentVideo.caption}</h2>
+          <h2 className="text-white xl:text-3xl text-lg font-light">{currentVideo.caption}</h2>
         </figcaption>
         <div id="link-profile" className="w-40 absolute top-[69%] bg-black left-1/2 transform -translate-x-1/2 flex items-center justify-center">
           <a className="px-4 py-2 text-white inline-block" href={currentVideo.link}>
@@ -58,34 +59,37 @@ const HomePage = () => {
             <span className="block h-[5px] w-8 bg-slate-300 hover:bg-orange-700"></span>
           </button>
         </div>
-        <div className="h-[8vh] flex justify-center items-center gap-20 border-b-2">
-          <a className="py-2 px-4 block font-medium text-lg hover:bg-slate-200" href="#company-overview">
-            OVERVIEW
-          </a>
-          <a className="py-2 px-4 block font-medium text-lg hover:bg-slate-200" href="#signature">
-            SIGNATURE
-          </a>
-          <a className="py-2 px-4 block font-medium text-lg hover:bg-slate-200" href="#products">
-            SUPERCARS
-          </a>
-          <a className="py-2 px-4 block font-medium text-lg hover:bg-slate-200" href="#media-review">
-            MEDIA REVIEW
-          </a>
+        <div className="border-b-2">
+          <div className="h-auto w-[80%] mx-auto flex justify-center flex-wrap items-center xl:gap-20">
+            <a className="xl:py-3 py-2 xl:px-4 px-5 block font-medium xl:text-lg text-sm hover:bg-slate-200" href="#company-overview">
+              OVERVIEW
+            </a>
+            <a className="xl:py-3 py-2 xl:px-4 px-5 block font-medium xl:text-lg text-sm hover:bg-slate-200" href="#signature">
+              SIGNATURE
+            </a>
+            <a className="xl:py-3 py-2 xl:px-4 px-5 block font-medium xl:text-lg text-sm hover:bg-slate-200" href="#products">
+              SUPERCARS
+            </a>
+            <a className="xl:py-3 py-2 xl:px-4 px-5 block font-medium xl:text-lg text-sm hover:bg-slate-200" href="#media-review">
+              MEDIA REVIEW
+            </a>
+          </div>
         </div>
       </div>
+
       <section id="company-overview" className="mx-auto">
-        <h2 className="font-medium text-center mt-16 pt-5 mb-12 text-3xl">UNLEASH THE BEAST | BRABUS OVERVIEW</h2>
+        <h2 className="font-medium text-center mt-16 pt-5 mb-12 xl:text-3xl text-lg">UNLEASH THE BEAST <span className="mx-2 ">|</span> BRABUS OVERVIEW</h2>
         <div id="overview-grid" className="mx-auto">
-          <div id="welcome" className="max-w-3xl mx-auto">
-            <h2 className="text-2xl mb-2 text-center ">Welcome to Brabus Tuning</h2>
-            <p className="text-lg">
+          <div id="welcome" className="max-w-4xl mx-auto">
+            <h2 className="xl:text-2xl text-lg mb-2 text-center ">Welcome to Brabus Tuning</h2>
+            <p className="xl:text-lg text-base text-justify px-3">
               At Brabus, we don't just modify cars; we elevate them to unprecedented levels of performance, luxury, and style. With a legacy rooted in precision engineering and a passion for automotive innovation, Brabus Tuning stands as a
               beacon of excellence in the world of high-performance vehicles.
             </p>
           </div>
-          <div id="history" className="max-w-3xl mx-auto mt-6 mb-10">
-            <h2 className="text-2xl mb-2 text-center">Our Brief History</h2>
-            <p className="text-justify text-lg">
+          <div id="history" className="max-w-4xl mx-auto mt-6 mb-10">
+            <h2 className="xl:text-2xl text-lg mb-2 text-center">Our Brief History</h2>
+            <p className="xl:text-lg text-base text-justify px-3">
               The company name was derived from the first three characters of the founders' surnames (<strong>Bra</strong>ckmann, <strong>Bus</strong>chmann). The company began with Bodo Buschmann wanting to customise his cars. Discovering
               most existing customisers could not grasp his vision or meet his requirements, he started his own brand. Brabus GmbH was registered in 1977 in West Germany with Buschmann's friend Klaus Brackmann to satisfy German law
               requiring a company to be established with at least two people.{" "}
@@ -93,51 +97,51 @@ const HomePage = () => {
           </div>
           <div id="signature" className="bg-black text-gray-200 py-12">
             <div id="principles" className="">
-              <h2 className="text-2xl mb-10 text-center font-semibold pt-8">THE BRABUS DIFFERENCE</h2>
-              <div className="text-lg grid grid-cols-3 justify-items-center max-w-5xl mx-auto">
-                <figure className="w-52 h-auto mb-10">
+              <h2 className="xl:text-2xl text-xl mb-10 text-center font-semibold pt-8">THE BRABUS DIFFERENCE</h2>
+              <div className="xl:text-lg text-xs grid xl:grid-cols-3 grid-cols-2 justify-items-center px-4 max-w-5xl mx-auto">
+                <figure className="xl:w-52 w-28 h-auto mb-10">
                   <img src={Engine} alt="" />
                   <figcaption className="mt-5">UNPARALLELED ENGINE PERFORMANCE.</figcaption>
                 </figure>
-                <figure className="w-52 h-auto mb-10">
+                <figure className="xl:w-52 w-28 h-auto mb-10">
                   <img src={Materials} alt="" />
                   <figcaption className="mt-5">MOST EXQUISITE MATERIALS AVAILABLE.</figcaption>
                 </figure>
-                <figure className="w-52 h-auto mb-10">
+                <figure className="xl:w-52 w-28 h-auto mb-10">
                   <img src={Exterior} alt="" />
                   <figcaption className="mt-5">EXTRAORDINARY EXTERIOR.</figcaption>
                 </figure>
-                <figure className="w-52 h-auto mb-10">
+                <figure className="xl:w-52 w-28 h-auto mb-10">
                   <img src={Wheels} alt="" />
                   <figcaption className="mt-5">WHEELS & CHASSIS. FORGED IN PERFECTION.</figcaption>
                 </figure>
-                <figure className="w-52 h-auto mb-10">
+                <figure className="xl:w-52 w-28 h-auto mb-10">
                   <img src={Interior} alt="" />
                   <figcaption className="mt-5">MASTERPIECE LUXURY INTERIOR.</figcaption>
                 </figure>
-                <figure className="w-52 h-auto mb-10">
+                <figure className="xl:w-52 w-28 h-auto mb-10">
                   <img src={Exhaust} alt="" />
                   <figcaption className="mt-5">PURE ADRENALINE EXHAUST SOUND.</figcaption>
                 </figure>
               </div>
             </div>
-            <div id="services" className="mt-16 max-w-3xl mx-auto pb-10">
+            <div id="services" className="mt-16 max-w-4xl px-4 mx-auto pb-10">
               <h2 className="text-2xl mb-1 text-center font-semibold">Our Services</h2>
               <table className="min-w-full a">
-                <tbody className="text-lg">
+                <tbody className="xl:text-xl text-sm ">
                   <tr className="">
-                    <td className="px-6 py-2 align-text-top text-orange-800">Performance Tuning :</td>
-                    <td className="px-6 py-2 align-text-top">Unleash the full potential of your vehicle with our expertly crafted performance tuning packages.</td>
+                    <td className="xl:px-6 px-3 py-2 align-text-top text-orange-800">Performance Tuning:</td>
+                    <td className="xl:px-6 px-3 py-2 align-text-top">Unleash the full potential of your vehicle with our expertly crafted performance tuning packages.</td>
                   </tr>
 
                   <tr>
-                    <td className="px-6 py-2 align-text-top text-orange-800">Aesthetic Enhancements :</td>
-                    <td className="px-6 py-2 align-text-top">Elevate the visual appeal of your car with our custom body kits, wheels, and interior upgrades.</td>
+                    <td className="xl:px-6 px-3 py-2 align-text-top text-orange-800">Aesthetic Enhancements:</td>
+                    <td className="xl:px-6 px-3 py-2 align-text-top">Elevate the visual appeal of your car with our custom body kits, wheels, and interior upgrades.</td>
                   </tr>
 
                   <tr>
-                    <td className="px-6 py-2 align-text-top text-orange-800">Exclusive Editions :</td>
-                    <td className="px-6 py-2 align-text-top">Experience automotive luxury like never before with our limited-edition models, each a masterpiece in its own right.</td>
+                    <td className="xl:px-6 px-3 py-2 align-text-top text-orange-800">Exclusive Editions:</td>
+                    <td className="xl:px-6 px-3 py-2 align-text-top">Experience automotive luxury like never before with our limited-edition models, each a masterpiece in its own right.</td>
                   </tr>
                 </tbody>
               </table>
@@ -146,14 +150,14 @@ const HomePage = () => {
         </div>
       </section>
       <section id="media-review" className="bg-testimonials-background">
-        <h2 className="text-center pt-24 font-semibold text-gray-700 text-4xl">MEDIA REVIEW</h2>
+        <h2 className="text-center xl:pt-24 pt-10 font-semibold text-gray-700 text-4xl">MEDIA REVIEW</h2>
         <h6 className="text-center text-xs">(Testimonials)</h6>
-        <div id="cards" className="flex flex-row mt-36 justify-center gap-5 pb-24">
-          <div id="card" className=" w-[350px]  text-center bg-[#e9ecef] bg-opacity-75">
+        <div id="cards" className="flex flex-row flex-wrap xl:mt-36 mt-10 justify-center gap-5 px-5 pb-24">
+          <div id="card" className="w-[350px]  text-center bg-[#e9ecef] bg-opacity-75">
             <img className="w-32 mx-auto py-4" src={carNDriver} alt="" />
             <p className="px-6 pb-6 ">
-              In their latest review, Car and Driver Magazine showers praise on the Brabus 900 NLP 6x6 for its exceptional blend of power and refinement. The tech-savvy features, including comprehensive driver-assistance suite, left the reviewers thoroughly impressed. Car and Driver concludes that the Brabus 900 NLP 6x6 isn't just a car; it's a
-              driving revelation, setting a thrilling standard for the modern, tech-forward enthusiast.
+              In their latest review, Car and Driver Magazine showers praise on the Brabus 900 NLP 6x6 for its exceptional blend of power and refinement. The tech-savvy features, including comprehensive driver-assistance suite, left the
+              reviewers thoroughly impressed. Car and Driver concludes that the Brabus 900 NLP 6x6 isn't just a car; it's a driving revelation, setting a thrilling standard for the modern, tech-forward enthusiast.
             </p>
           </div>
           <div id="card" className="w-[350px]  text-center bg-[#e9ecef] bg-opacity-75">
@@ -173,19 +177,15 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-      <section id="products">
+      <section id="products" className="mb-20">
         <MultipleItems />
         <div id="link-profile" className="w-40 top-[69%] bg-black flex items-center justify-center mx-auto mt-16 hover:bg-orange-600">
-          <a className="px-4 py-2 text-white inline-block" href="">
-            See More
-          </a>
+          <Link to="/products" className="px-3 py-2 text-white inline-block"  >
+          See More
+          </Link>
         </div>
       </section>
 
-      <br />
-      <br />
-      <br />
-      <br />
       <Footer />
     </div>
   );
