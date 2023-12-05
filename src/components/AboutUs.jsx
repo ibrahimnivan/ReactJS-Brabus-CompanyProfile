@@ -42,7 +42,7 @@ function AboutUs() {
             <br />
             <br />
             <div className="history-background">
-              <img className="w-[80%] mx-auto py-5 " src={history} alt="" />
+              <img className="w-[80%] mx-auto py-5 " src={history} alt="brabus old photo" />
             </div>
             <br />
             <strong className="mr-2">Power and Innovation (1990s)</strong>
@@ -74,7 +74,7 @@ function AboutUs() {
           <div className="flex flex-wrap gap-10 max-w-4xl justify-center mx-auto ">
             <div className="w-64 pb-5">
               <div className="bg-gradient-to-r from-indigo-700 to-gray-900 w-64 h-64 relative mt-10">
-                <img className="absolute bottom-0" src={CEO} alt="" />
+                <img className="absolute bottom-0" src={CEO} alt="ceo picture" />
               </div>
               <h3 className="text-center font-medium text-gray-700 text-2xl mt-5 mb-1">Cameron Deatsch</h3>
               <h4 className="text-center text-sm mb-3">CHIEF EXECUTION OFFICER</h4>
@@ -85,7 +85,7 @@ function AboutUs() {
             </div>
             <div className="w-64">
               <div className="bg-gradient-to-r from-slate-800 to-red-950 w-64 h-64 relative mt-10">
-                <img className="absolute bottom-0" src={marketing} alt="" />
+                <img className="absolute bottom-0" src={marketing} alt="marketing chief picture" />
               </div>
               <h3 className="text-center font-medium text-gray-700 text-2xl mt-5 mb-1">Zeynep Ozdemir</h3>
               <h4 className="text-center text-sm mb-3">CHIEF MARKETING OFFICER</h4>
@@ -96,7 +96,7 @@ function AboutUs() {
             </div>
             <div className="w-64">
               <div className="bg-gradient-to-r from-rose-950 to-lime-900 w-64 h-64 relative mt-10">
-                <img className="absolute bottom-0" src={production} alt="" />
+                <img className="absolute bottom-0" src={production} alt="production manager picture" />
               </div>
               <h3 className="text-center font-medium text-gray-700 text-2xl mt-5 mb-1">Cameron Deatsch</h3>
               <h4 className="text-center text-sm mb-3">PRODUCTION MANAGER</h4>
@@ -107,7 +107,7 @@ function AboutUs() {
             </div>
             <div className="w-64">
               <div className="bg-gradient-to-r from-purple-950 to-rose-950 w-64 h-64 relative mt-10">
-                <img className="absolute bottom-0" src={engineer} alt="" />
+                <img className="absolute bottom-0" src={engineer} alt="engineer picture" />
               </div>
               <h3 className="text-center font-medium text-gray-700 text-2xl mt-5 mb-1">Mike Cannon-Brookes</h3>
               <h4 className="text-center text-sm mb-3">LEAD ENGINEER</h4>
@@ -118,7 +118,7 @@ function AboutUs() {
             </div>
             <div className="w-64">
               <div className="bg-gradient-to-r from-fuchsia-950 to-black w-64 h-64 relative mt-10">
-                <img className="absolute bottom-0" src={designer} alt="" />
+                <img className="absolute bottom-0" src={designer} alt="designer photo" />
               </div>
               <h3 className="text-center font-medium text-gray-700 text-2xl mt-5 mb-1">Scott Farquhar</h3>
               <h4 className="text-center text-sm mb-3">LEAD DESIGNER</h4>
@@ -131,7 +131,6 @@ function AboutUs() {
         </section>
         <section id="culture" className="mt-20 xl:mb-24 mb-16">
           <h2 className="mb-5 text-center xl:text-4xl text-2xl font-medium mt-20">BRABUS CULTURE</h2>
-          <img alt="" />
           <div className="max-w-4xl mx-auto mb-7 px-5">
             <h3 className="py-2 xl:text-xl text-base font-semibold mb-2">Empathy and Collaboration</h3>
             <p className="xl:text-lg text-sm">
@@ -143,7 +142,7 @@ function AboutUs() {
             </p>
           </div>
           <div className="culture-background max-w-4xl mx-auto">
-            <img className="w-[80%] mx-auto py-5" src={culture} alt="" />
+            <img className="w-[80%] mx-auto py-5" src={culture} alt="culture brabus" />
           </div>
           <div className="max-w-4xl mx-auto mb-7 px-5">
             <h3 className="py-2 xl:text-xl text-base font-semibold mb-2">Transparency and Authenticity</h3>

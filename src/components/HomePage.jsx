@@ -100,27 +100,27 @@ const HomePage = () => {
               <h2 className="xl:text-2xl text-xl mb-10 text-center font-semibold pt-8">THE BRABUS DIFFERENCE</h2>
               <div className="xl:text-lg text-xs grid xl:grid-cols-3 grid-cols-2 justify-items-center px-4 max-w-5xl mx-auto">
                 <figure className="xl:w-52 w-28 h-auto mb-10">
-                  <img src={Engine} alt="" />
+                  <img src={Engine} alt="brabus-signature" />
                   <figcaption className="mt-5">UNPARALLELED ENGINE PERFORMANCE.</figcaption>
                 </figure>
                 <figure className="xl:w-52 w-28 h-auto mb-10">
-                  <img src={Materials} alt="" />
+                  <img src={Materials} alt="brabus-signature" />
                   <figcaption className="mt-5">MOST EXQUISITE MATERIALS AVAILABLE.</figcaption>
                 </figure>
                 <figure className="xl:w-52 w-28 h-auto mb-10">
-                  <img src={Exterior} alt="" />
+                  <img src={Exterior} alt="brabus-signature" />
                   <figcaption className="mt-5">EXTRAORDINARY EXTERIOR.</figcaption>
                 </figure>
                 <figure className="xl:w-52 w-28 h-auto mb-10">
-                  <img src={Wheels} alt="" />
+                  <img src={Wheels} alt="brabus-signature" />
                   <figcaption className="mt-5">WHEELS & CHASSIS. FORGED IN PERFECTION.</figcaption>
                 </figure>
                 <figure className="xl:w-52 w-28 h-auto mb-10">
-                  <img src={Interior} alt="" />
+                  <img src={Interior} alt="brabus-signature" />
                   <figcaption className="mt-5">MASTERPIECE LUXURY INTERIOR.</figcaption>
                 </figure>
                 <figure className="xl:w-52 w-28 h-auto mb-10">
-                  <img src={Exhaust} alt="" />
+                  <img src={Exhaust} alt="brabus-signature" />
                   <figcaption className="mt-5">PURE ADRENALINE EXHAUST SOUND.</figcaption>
                 </figure>
               </div>
@@ -154,21 +154,21 @@ const HomePage = () => {
         <h6 className="text-center text-xs">(Testimonials)</h6>
         <div id="cards" className="flex flex-row flex-wrap xl:mt-36 mt-10 justify-center gap-5 px-5 pb-24">
           <div id="card" className="w-[350px]  text-center bg-[#e9ecef] bg-opacity-75">
-            <img className="w-32 mx-auto py-4" src={carNDriver} alt="" />
+            <img className="w-32 mx-auto py-4" src={carNDriver} alt="car & driver logo" />
             <p className="px-6 pb-6 ">
               In their latest review, Car and Driver Magazine showers praise on the Brabus 900 NLP 6x6 for its exceptional blend of power and refinement. The tech-savvy features, including comprehensive driver-assistance suite, left the
               reviewers thoroughly impressed. Car and Driver concludes that the Brabus 900 NLP 6x6 isn't just a car; it's a driving revelation, setting a thrilling standard for the modern, tech-forward enthusiast.
             </p>
           </div>
           <div id="card" className="w-[350px]  text-center bg-[#e9ecef] bg-opacity-75">
-            <img className="w-32 mx-auto py-4" src={topGear} alt="" />
+            <img className="w-32 mx-auto py-4" src={topGear} alt="top gear logo" />
             <p className="px-6 pb-6 ">
               TopGear Magazine's latest review of the 900 R is nothing short of a love letter to automotive excellence. The editors are raving about the jaw-dropping performance, describing the engine's roar as a symphony of power. The
               cutting-edge technology leaves them spellbound, TopGear's verdict? 900 R is not just a car; it's a masterpiece on wheels, setting a new standard for performance and sophistication in the automotive world
             </p>
           </div>
           <div id="card" className="w-[350px]  text-center bg-[#e9ecef] bg-opacity-75">
-            <img className="w-32 mx-auto py-4" src={motorTrend} alt="" />
+            <img className="w-32 mx-auto py-4" src={motorTrend} alt="motor trend logo" />
             <p className="px-6 pb-6 ">
               MotorTrend Magazine is giving the praises of the Brabus 750 Bodo Buschmann Edition, declaring it a triumph in automotive engineering. The review emphasizes the Brabus 750 Bodo Buschmann Edition's blistering performance, with
               the roaring engine and precise handling turning every drive into a visceral adventure. The striking design doesn't just turn heads; it demands a second look. MotorTrend Magazine concludes that the Bodo Buschmann Edition

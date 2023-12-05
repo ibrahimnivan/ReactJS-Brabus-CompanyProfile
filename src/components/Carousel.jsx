@@ -41,32 +41,32 @@ export default class MultipleItems extends Component {
         <h2 className="xl:text-3xl text-2xl xl:ml-20 ml-5 mb-10"> BRAND NEW SUPERCARS </h2>
         <Slider {...settings}>
           <div className="p-4">
-            <img src={BRABUS_600} alt="" />
+            <img src={BRABUS_600} alt="brabus 600" />
             <h3 className="font-semibold text-lg pt-4">BRABUS 600</h3>
             <h4>Based on Range Rover P 530</h4>
           </div>
           <div className="p-4">
-            <img src={BRABUS_750} alt="" />
+            <img src={BRABUS_750} alt="brabus 750" />
             <h3 className="font-semibold text-lg pt-4">BRABUS 750 BODO BUSCHMANN EDITION</h3>
             <h4>Based on the Mercedes-AMG SL 63</h4>
           </div >
           <div className="p-4">
-            <img src={Brabus911} alt="" />
+            <img src={Brabus911} alt="brabus 900" />
             <h3 className="font-semibold text-lg pt-4">BRABUS 900 ROCKET R</h3>
             <h4>Based on Porsche 911 Turbo S</h4>
           </div>
           <div className="p-4">
-            <img src={Superblack} alt="" />
+            <img src={Superblack} alt="brabus 900 superblack" />
             <h3 className="font-semibold text-lg pt-4">BRABUS 900 SUPERBLACK</h3>
             <h4>Based on Mercedes-AMG GLS 63</h4>
           </div>
           <div className="p-4">
-            <img src={Brabus_6x6} alt="" />
+            <img src={Brabus_6x6} alt="brabus xlp" />
             <h3 className="font-semibold text-lg pt-4">BRABUS XLP 900 6X6 SUPERBLACK</h3>
             <h4>Based on the Mercedes-AMG G 63</h4>
           </div>
           <div className="p-4">
-            <img src={Taycan} alt="" />
+            <img src={Taycan} alt="brabus taycan" />
             <h3 className="font-semibold text-lg pt-4">BRABUS FOR PORSCHE TAYCAN</h3>
             <h4>Based on Porsche Taycan Turbo S</h4>
           </div>   

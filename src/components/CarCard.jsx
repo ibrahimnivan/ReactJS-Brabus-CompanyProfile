@@ -10,11 +10,11 @@ const CarCard = ({ id, name, img, description, powerTorque, engine, price }) => 
       <p className="text-sm xl:text-base text-gray-600 pb-2">{description}</p>
       <p className="text-sm xl:text-base text-gray-600 pb-2">{price}</p>
       <p className="text-sm xl:text-base text-gray-600">
-        <img className="inline-block h-4 mr-2" src={engineLogo} alt="" />
+        <img className="inline-block h-4 mr-2" src={engineLogo} alt="engile-logo" />
         {engine}{" "}
       </p>
       <p className="text-sm xl:text-base text-gray-600">
-        <img className="inline-block h-4 mr-2" src={powerLogo} alt="" /> {powerTorque}
+        <img className="inline-block h-4 mr-2" src={powerLogo} alt="power and torque" /> {powerTorque}
       </p>
     </div>
   );

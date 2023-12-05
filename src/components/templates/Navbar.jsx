@@ -31,10 +31,10 @@ const Navbar = () => {
     <nav className={`${isFixed ? "navbar-fixed" : " "} z-10 h-16 flex w-full items-center justify-between fixed top-0 left-0`}>
       <span className="w-10 "></span>
       <Link to="/">
-        <img className="w-10" src={logoBrabus} alt="" />
+        <img className="w-10" src={logoBrabus} alt="logo" />
       </Link>
       <div className="w-10">
-        <img className="mr-4 w-7" src={account} alt="" />
+        <img className="mr-4 w-7" src={account} alt="account-logo" />
       </div>
     </nav>
   );
